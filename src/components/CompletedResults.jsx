@@ -14,7 +14,7 @@ export default function CompletedResults({ mortgage }) {
           Your monthly repayments
         </h3>
         <p className="text-Lime text-[3rem] main-700">
-          €{mortgage.monthlyPayment}
+          £{mortgage.monthlyPayment}
         </p>
 
         <hr className="h-[1px] w-full bg-Slate-900 my-4" />
@@ -23,7 +23,7 @@ export default function CompletedResults({ mortgage }) {
           Total you&apos;ll repay over the term
         </h2>
         <p className="text-white text-2xl font-semibold">
-          €{mortgage.totalRepayment}
+          £{mortgage.totalRepayment}
         </p>
       </div>
     </article>

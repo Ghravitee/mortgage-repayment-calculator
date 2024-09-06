@@ -101,7 +101,7 @@ const Form = ({ onCalculateMortgage, onReset }) => {
                     : "text-Slate-700 bg-Slate-100"
                 } font-bold rounded-l-md`}
               >
-                €
+                £
               </span>
             </div>
             <input
